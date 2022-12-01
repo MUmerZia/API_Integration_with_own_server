@@ -4,7 +4,7 @@ let baseUrl = "";
 if (url.split(":")[0] === "htt") {
   baseUrl = "http://localhost:5001";
 } else {
-  baseUrl = "https://magenta-rose-pelican-garb.cyclic.app/food";
+  baseUrl = "https://umer-own-server.cyclic.app";
 }
 
 let getAPI = () => {
