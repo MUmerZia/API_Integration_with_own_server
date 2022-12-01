@@ -1,7 +1,7 @@
 const url = window.location.href;
 let baseUrl = "";
 
-if (url.split(":")[0] === "http") {
+if (url.split(":")[0] === "htt") {
   baseUrl = "http://localhost:5001";
 } else {
   baseUrl = "https://magenta-rose-pelican-garb.cyclic.app/food";
